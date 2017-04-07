@@ -4,8 +4,8 @@ import {FormsModule} from "@angular/forms";
 import {AppComponent} from "./app.component";
 
 @NgModule({
-    imports: [BrowserModule, FormsModule],
+    bootstrap: [AppComponent],
     declarations: [AppComponent],
-    bootstrap: [AppComponent]
+    imports: [BrowserModule, FormsModule],
 })
 export class AppModule { }
